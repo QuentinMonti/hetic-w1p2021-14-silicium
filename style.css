@@ -1,4 +1,76 @@
-.TTM {
-    img 
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.intro { 
+  height: 338px;
+  background-size: cover;
+  background-position: center;
+  color:black;
+  background-color:white;
+  background-image:linear-gradient(
+    rgba(0, 0, 0, 0.43), 
+    rgba(0, 0, 0, 0.43)) ,url(assets/Page\ produit\ 1\ -\ Ambiance/PP1\ Ambiance\ 1.jpeg);
+  margin: 0;
+  z-index: 1;
+}
+
+h1 {
+  font-size: 25px;
+  line-height: 180px;
+  font-style: bold;
+  font-family: Averia Sans libre;
+  color: white; 
+  text-align: center; 
+}
+
+h2 {
+  color: white;
+  font-size: 18px;
+  font-family: Oswald;
+  font-style: Regular;
+  text-align: center;
+}
+
+p {
+  font-family: Oswald;
+  font-style: Regular;
+  text-align: center;
+  font-size: 14px;
+}
+
+
+.button {
+  z-index: 2;
+  display: block;
+  font-family: Averia Sans Libre;
+  font-style: Bold;
+  font-size: 20px;
+  margin:0 ;
+  text-align: center;
+  width: 271px;
+  height: 43px;
+  line-height:50px;
+  background-color: #FEEBA1; 
+  color:black;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/* .button:hover{
+    
+} */
+
+/* Actualités */
+
+.Actualites{
+  display:inline-block;
+  justify-content:center;
+  background-image:url(actu.jpg);
+  background-color: #FEEBA1;
+  height: 271px;
+  width:43px;
+  text-align: center;
 }
 
