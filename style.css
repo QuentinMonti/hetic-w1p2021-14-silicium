@@ -1,3 +1,95 @@
+/*Header*/
+
+/*Logotype */
+
+.partie_logo{
+  height: 60px;
+  width:100px;
+  background-color: white;
+}
+
+.presentation image{
+  background:url(Logo TTM.png);
+  display: block;
+  justify-content: center;
+  margin: 345px;
+}
+
+/*Navigation */
+nav{
+  position: fixed;
+  right:15px;
+  background:#FEEBA1;
+  height:300px;
+  width: 50px;
+  border-radius:50%;
+  overflow:hidden;
+  transition: height 0.5s, width 0.5s,top 0.5s,right 0.5s,border-radius 0.5s;
+}
+
+nav.is-open {
+  height:-100vh;
+  width:100vw;
+  top:0;
+  right:0;
+}
+
+nav.is-open ul{
+  transform: none;
+  opacity: 1;
+  transition: transform 2s, opacity 0.5s
+}
+
+nav :not.is-open {
+  cursor:pointer;
+}
+
+nav:not(.is-open) ul{
+  pointer-events: none;
+}
+
+.menu-icon{
+  height:30px,
+  position:fixed;
+  top: 25px;
+  right:25px;
+  z-index:1;
+  display:flex;
+  align-items:center;
+  cursor:pointer;
+}
+
+.menu-icon div{
+  transition: background 0.3s;
+}
+
+.menu-icon div
+.menu-icon ::after
+.menu-icon ::before{
+  width: 30px;
+  height: 4px;
+  background: black;
+}
+
+.menu-icon ::after
+.menu-icon ::before{
+  content: '';
+  display: block;
+  transition: transform 0.2s;
+}
+
+.menu-icon div ::before{
+  transform: translateY(8px)
+}
+
+.menu-icon div
+
+
+
+
+
+/*Body*/
+
 *{
   margin: 0;
   padding: 0;
@@ -41,7 +133,7 @@ p {
 }
 
 
-.button {
+.button-1 {
   z-index: 2;
   display: block;
   font-family: Averia Sans Libre;
@@ -62,15 +154,85 @@ p {
     
 } */
 
+/* Produits */
+
+.appareil1{
+  display: block;
+  justify-content: center;
+  align-items:center;
+  margin:0 auto;
+  margin-top: 30px;
+
+}
+
 /* Actualités */
 
-.Actualites{
-  display:inline-block;
-  justify-content:center;
-  background-image:url(actu.jpg);
-  background-color: #FEEBA1;
-  height: 271px;
-  width:43px;
-  text-align: center;
+#actu
+{
+    height:auto;
+    background:url('assets/Homepage/Produit\comptoir.jpg');
 }
+
+.Actualites{
+    height: 338px;
+    background-size: cover;
+    background-position: center;
+    color:black;
+    background-color:white;
+    background-image:;
+    margin: 0;
+    z-index: 1;
+
+}
+
+.fondactu{
+
+    display: block;
+    justify-content: center;
+    align-items:center;
+    margin:0 auto;
+    margin-top: 30px;
+}
+
+.actualité{
+
+    width:940px
+    margin:0;
+    padding :10px;
+}
+
+a{
+  font-family: font-family: 'Averia Sans Libre', cursive;
+  font-size:16px;
+}
+
+.Actualités{
+  background:white;
+  display: inherit;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  height: 300px;
+  width: 400px;
+
+}
+
+.Titractu{
+  position: relative;
+  display: inherit;
+  color:black;
+  text-align: center;
+  justify-content: flex-start;
+  margin-right: 215px;
+  height: 30px;
+  width: 180px;
+  background:#FEEBA1; 
+  line-height:
+}
+
+.image fromage
+
 
