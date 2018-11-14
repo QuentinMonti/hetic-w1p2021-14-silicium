@@ -126,6 +126,10 @@ h2 {
 }
 
 p {
+  position: relative;
+  margin: 0;
+  display: center;
+  justify-content: center;
   font-family: Oswald;
   font-style: Regular;
   text-align: center;
@@ -136,6 +140,8 @@ p {
 .button-1 {
   z-index: 2;
   display: block;
+  justify-content: center;
+  align-items: center;
   font-family: Averia Sans Libre;
   font-style: Bold;
   font-size: 20px;
@@ -167,13 +173,12 @@ p {
 
 /* Actualités */
 
-#actu
+#globalactu
 {
-    height:auto;
-    background:url('assets/Homepage/Produit\comptoir.jpg');
+  
 }
 
-.Actualites{
+#Actualites{
     height: 338px;
     background-size: cover;
     background-position: center;
@@ -206,7 +211,7 @@ a{
   font-size:16px;
 }
 
-.Actualités{
+#Actualités{
   background:white;
   display: inherit;
   justify-content: center;
@@ -220,19 +225,108 @@ a{
 
 }
 
-.Titractu{
-  position: relative;
-  display: inherit;
-  color:black;
-  text-align: center;
-  justify-content: flex-start;
-  margin-right: 215px;
-  height: 30px;
-  width: 180px;
-  background:#FEEBA1; 
-  line-height:
+
 }
 
-.image fromage
+.Article2{
+  position:absolute;
+  display: flex;
+  float:right
+  color:black;
+  text-align:center;
+  justify-content:center;
+
+}
+
+/*HISTOIRE */
+#Actualites{
+  height: 338px;
+  background-size: cover;
+  background-position: center;
+  color:black;
+  background-color:white;
+  background-image:;
+  margin: 0;
+  z-index: 1;
+
+}
+
+.fondactu{
+
+  display: block;
+  justify-content: center;
+  align-items:center;
+  margin:0 auto;
+  margin-top: 30px;
+}
+
+.story{
+
+  z-index: 2;
+  display: block;
+  font-family: Averia Sans Libre;
+  font-style: Bold;
+  font-size: 20px;
+  margin:0 ;
+  text-align: center;
+  width: 271px;
+  height: 200px;
+  line-height:50px;
+  background-color: #FEEBA1; 
+  color:black;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+a{
+font-family: font-family: 'Averia Sans Libre', cursive;
+font-size:16px;
+}
+
+#Actualités{
+background:white;
+display: inherit;
+justify-content: center;
+align-items: center;
+margin-top: 30px;
+margin-left: auto;
+margin-right: auto;
+left: 0;
+height: 300px;
+width: 400px;
+
+}
 
 
+/*Article*/
+
+
+
+
+/*HISTOIRE*/
+
+.pagestory{
+  display: block;
+  text-align: center;
+  font-family: Oswald;
+  background-color: white;
+  height: 300px;
+  width: 400px;
+}
+
+.pagestory{ 
+  z-index: 2;
+  display: block;
+  font-family: Averia Sans Libre;
+  font-style: Bold;
+  font-size: 20px;
+  margin:0 ;
+  line-height: 15px;
+  text-align: left;
+  width: 271px;
+  height: 43px;
+  color:black;
+  margin-top: 20px;
+  margin-right: auto;
+  margin-left: auto;
+}
