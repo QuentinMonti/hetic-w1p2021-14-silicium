@@ -1,99 +1,29 @@
+@import url("font.css") ;
+
 /*Header*/
 
 /*Logotype */
 
-.partie_logo{
+.partie_logo {
   height: 60px;
   width:100px;
   background-color: white;
 }
 
-.presentation image{
+.presentation image {
   background:url(Logo TTM.png);
   display: block;
   justify-content: center;
   margin: 345px;
 }
 
-/*Navigation */
-nav{
-  position: fixed;
-  right:15px;
-  background:#FEEBA1;
-  height:300px;
-  width: 50px;
-  border-radius:50%;
-  overflow:hidden;
-  transition: height 0.5s, width 0.5s,top 0.5s,right 0.5s,border-radius 0.5s;
-}
-
-nav.is-open {
-  height:-100vh;
-  width:100vw;
-  top:0;
-  right:0;
-}
-
-nav.is-open ul{
-  transform: none;
-  opacity: 1;
-  transition: transform 2s, opacity 0.5s
-}
-
-nav :not.is-open {
-  cursor:pointer;
-}
-
-nav:not(.is-open) ul{
-  pointer-events: none;
-}
-
-.menu-icon{
-  height:30px,
-  position:fixed;
-  top: 25px;
-  right:25px;
-  z-index:1;
-  display:flex;
-  align-items:center;
-  cursor:pointer;
-}
-
-.menu-icon div{
-  transition: background 0.3s;
-}
-
-.menu-icon div
-.menu-icon ::after
-.menu-icon ::before{
-  width: 30px;
-  height: 4px;
-  background: black;
-}
-
-.menu-icon ::after
-.menu-icon ::before{
-  content: '';
-  display: block;
-  transition: transform 0.2s;
-}
-
-.menu-icon div ::before{
-  transform: translateY(8px)
-}
-
-.menu-icon div
-
-
-
-
-
 /*Body*/
 
-*{
-  margin: 0;
-  padding: 0;
+html, body {
+	height: 100%;
+	margin: 0; padding: 0;
 }
+
 
 .intro { 
   height: 338px;
@@ -126,10 +56,6 @@ h2 {
 }
 
 p {
-  position: relative;
-  margin: 0;
-  display: center;
-  justify-content: center;
   font-family: Oswald;
   font-style: Regular;
   text-align: center;
@@ -140,8 +66,6 @@ p {
 .button-1 {
   z-index: 2;
   display: block;
-  justify-content: center;
-  align-items: center;
   font-family: Averia Sans Libre;
   font-style: Bold;
   font-size: 20px;
@@ -160,25 +84,28 @@ p {
     
 } */
 
+
 /* Produits */
 
-.appareil1{
+.appareil1 {
   display: block;
   justify-content: center;
   align-items:center;
   margin:0 auto;
   margin-top: 30px;
-
+  height: 240px;
+  width: 260px;
 }
 
 /* Actualités */
 
-#globalactu
+#actu
 {
-  
+    height:auto;
+    background:url('assets/Homepage/Produit\comptoir.jpg');
 }
 
-#Actualites{
+.Actualites {
     height: 338px;
     background-size: cover;
     background-position: center;
@@ -190,7 +117,7 @@ p {
 
 }
 
-.fondactu{
+.fondactu {
 
     display: block;
     justify-content: center;
@@ -199,19 +126,19 @@ p {
     margin-top: 30px;
 }
 
-.actualité{
+.actualité {
 
-    width:940px
+    width:940px;
     margin:0;
     padding :10px;
 }
 
-a{
-  font-family: font-family: 'Averia Sans Libre', cursive;
+a {
+  font-family: 'Averia Sans Libre', cursive;
   font-size:16px;
 }
 
-#Actualités{
+.Actualités {
   background:white;
   display: inherit;
   justify-content: center;
@@ -225,108 +152,301 @@ a{
 
 }
 
-
+.Actualité1{
+display:block;
+justify-content: center  
 }
 
-.Article2{
-  position:absolute;
-  display: flex;
-  float:right
+.Titractu {
+  position: relative;
+  display: inherit;
   color:black;
-  text-align:center;
-  justify-content:center;
-
+  text-align: center;
+  justify-content: flex-start;
+  margin-right: 215px;
+  height: 30px;
+  width: 180px;
+  background:#FEEBA1; 
+  line-height:
 }
 
-/*HISTOIRE */
-#Actualites{
-  height: 338px;
+.imagefromage {
+  position:relative;
+  display:inline-block;
+  text-align: center;
+  justify-content:center;
+  margin-right:
+}
+
+.entreprise {
+  width: 390px;
+  height: 203px;
+  margin: 0;
+}
+
+
+/* PAGE PRODUIT */
+
+.caroussel {
+  max-width: 100%;
+  height: 222px;
   background-size: cover;
   background-position: center;
-  color:black;
-  background-color:white;
-  background-image:;
-  margin: 0;
-  z-index: 1;
-
-}
-
-.fondactu{
-
-  display: block;
-  justify-content: center;
-  align-items:center;
-  margin:0 auto;
-  margin-top: 30px;
-}
-
-.story{
-
-  z-index: 2;
-  display: block;
-  font-family: Averia Sans Libre;
-  font-style: Bold;
-  font-size: 20px;
-  margin:0 ;
-  text-align: center;
-  width: 271px;
-  height: 200px;
-  line-height:50px;
-  background-color: #FEEBA1; 
-  color:black;
-  margin-right: auto;
-  margin-left: auto;
-}
-
-a{
-font-family: font-family: 'Averia Sans Libre', cursive;
-font-size:16px;
-}
-
-#Actualités{
-background:white;
-display: inherit;
-justify-content: center;
-align-items: center;
-margin-top: 30px;
-margin-left: auto;
-margin-right: auto;
-left: 0;
-height: 300px;
-width: 400px;
-
-}
-
-
-/*Article*/
-
-
-
-
-/*HISTOIRE*/
-
-.pagestory{
-  display: block;
-  text-align: center;
-  font-family: Oswald;
+  color: black;
   background-color: white;
-  height: 300px;
-  width: 400px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.43), rgba(0, 0, 0, 0.43)),
+    url(assets/Page\produit\1\-\ambiance/pp1\ambiance\1jpeg);
+  margin: 0;
 }
 
-.pagestory{ 
-  z-index: 2;
-  display: block;
+.pageproduit{
+  float: right;
   font-family: Averia Sans Libre;
   font-style: Bold;
   font-size: 20px;
-  margin:0 ;
-  line-height: 15px;
-  text-align: left;
-  width: 271px;
+  margin: 0;
+  text-align: center;
+  width: 130px;
   height: 43px;
-  color:black;
-  margin-top: 20px;
-  margin-right: auto;
-  margin-left: auto;
+  line-height: 50px;
+  background: rgba(254, 235, 161, 0.5);
+  color: black;
+  margin: 0;
+  padding: auto;
+}
+
+.main {
+  margin-right: 5%;
+  margin-left: 5%;
+}
+
+.black {
+  color: black;
+}
+
+h1.black.carac {
+  max-width: 175px;
+  text-align: left;
+  line-height: 60px;
+}
+
+h2.black.other {
+  margin: 15px;
+  text-align: center;
+  max-width: 100%;
+}
+
+h2.black.product {
+  text-decoration: none;
+  background-color: #feeba1;
+}
+
+.imgtext {
+  position: relative;
+}
+
+.descriptive {
+  margin-top: 3%;
+  line-height: 140%;
+  font-family: Oswald;
+  font-style: Regular;
+  font-size: 14px;
+  text-align: left;
+}
+
+p.caract {
+  line-height: 140%;
+  font-family: Oswald;
+  font-style: Regular;
+  font-size: 14px;
+  text-align: left;
+}
+
+.imgproduct {
+  float: right;
+  max-width: 150px;
+  max-height: 100px;
+}
+
+.buttonorder {
+  display: flex;
+  flex-direction: column;
+  margin-top: 5%;
+  background-color: #fff5cd;
+  border-radius: 5px;
+  max-width: 50%;
+  height: 100px;
+  margin-left: 25%;
+  justify-content: space-around;
+}
+
+.buttonpur .h12produit {
+  text-align: center;
+  line-height: 50px;
+}
+
+.bgbutton {
+  margin-right: 5px;
+  margin-left: 5px;
+  margin-bottom: 5px;
+  border-radius: 40px;
+  background-color: #feeba1;
+}
+
+.order {
+  padding-top: 15px;
+  height: 35px;
+}
+
+.videoproduct {
+  width: 100%;
+  height: 33vh;
+  margin-top: 5%;
+}
+
+hr {
+  margin-top: 5%;
+  width: 100%;
+  height: 1px;
+  background-color: #000000;
+  border: none;
+}
+figure {
+  display: flex;
+  flex-flow: column;
+}
+
+.otherproduct {
+  display: flex;
+  justify-content: space-between;
+}
+
+.product {
+  -moz-box-shadow: 5px 5px 10px 0px #cfcfcf;
+  -webkit-box-shadow: 5px 5px 10px 0px #cfcfcf;
+  -o-box-shadow: 5px 5px 10px 0px #cfcfcf;
+  box-shadow: 5px 5px 10px 0px #cfcfcf;
+  filter: progid:DXImageTransform.Microsoft.Shadow(color=#cfcfcf, Direction=134, Strength=10);
+}
+
+.suggest {
+  width: 150px;
+  height: 109px;
+  margin-bottom: 0;
+}
+
+
+/* page article-1 */
+
+h2.titre-article {
+  font-size: 22px;
+  font-family: Oswald;
+  font-style: Regular;
+  text-align: center;
+  color: black;
+}
+
+p.paragraphe-article {
+  font-family: Oswald;
+  font-style: regular;
+  font-size: 14px;
+  line-height: 21px;
+  text-align: justify;
+  margin: 5%;
+}
+
+.video-article1 {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+footer {
+  bottom: 0;
+  color: black;
+  font-family: Oswald;
+  font-style: regular;
+  font-size: 12px;
+  background-color: #FEEBA1;
+  width: 100vw;
+  height: 32px;
+  line-height: 32px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.twitter {
+  position: relative;
+  top: 25%;
+  left: 3%;
+  height: 14px;
+  width: 14px;
+}
+
+/* menu burger */
+
+.burger {
+  position: fixed;
+  width: 20%;
+  height: 80%;
+  padding: 40px;
+  background-color: #FEEBA1;
+  opacity: 1;
+  line-height: 60px;
+  text-align: center;
+  right: 0%;
+  transform: translateX(500%);
+  --webkit--transform: translateX(500%);
+}
+
+.burger.isOpen {
+  transform: translateX(0%);
+  --webkit--transform: translateX(0%);
+}
+
+.burger li a{
+  font-family: Averia Sans Libre;
+  text-transform: uppercase;
+  font-size: 30px;
+  text-decoration: none;
+  color: black;
+  margin: 20%;
+}
+
+.burger ul {
+  margin: 100px
+}
+
+.bbutton {
+  position: fixed;
+  right: 15px;
+  top: 15px;
+  z-index: 20;
+  cursor: pointer;
+}
+
+.bbutton .barre{
+  width: 30px;
+  height: 3px;
+  margin-top: 3px;
+  background: black;
+}
+
+/* media query */
+
+@media{
+  .carrousel{
+    height:300px;
+    top:10%;
+    left:10%;
+  }
+  .pageproduits{
+    font-size:24px;
+    width:150px;
+    height:50px;
+
+  }
+  .
+
 }
