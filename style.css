@@ -4,6 +4,11 @@
 
 /*Logotype */
 
+.logo {
+  height: 30px;
+  width: 50px;
+}
+
 .partlogo {
   height: 60px;
   width:100px;
@@ -86,6 +91,11 @@ p {
 
 
 /* Produits */
+
+.produit1 {
+  height: 110px;
+  width: 130px;
+}
 
 .product1 {
   display: block;
