@@ -1,3 +1,2 @@
-Le lien vers notre site composé dut nom de notre groupe et la startup inspiré:
-
+Nous somme le groupe 14 et avons optés pour le mode start-up, voici notre site :
 https://oraclette-ttm.netlify.com
