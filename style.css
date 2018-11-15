@@ -1,4 +1,4 @@
-@import url("font.css") ;
+@import url("font.css");
 
 /*Header*/
 
@@ -11,12 +11,12 @@
 
 .partlogo {
   height: 60px;
-  width:100px;
+  width: 100px;
   background-color: white;
 }
 
 .presentation image {
-  background: url(Logo TTM.png);
+  background: url(LogoTTM.png);
   display: block;
   justify-content: center;
   margin: 345px;
@@ -24,21 +24,21 @@
 
 /*Body*/
 
-html, body {
-	height: 100%;
-	margin: 0; padding: 0;
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
 }
 
-
-.intro { 
+.intro {
   height: 338px;
   background-size: cover;
   background-position: center;
-  color:black;
-  background-color:white;
-  background-image:linear-gradient(
-    rgba(0, 0, 0, 0.43), 
-    rgba(0, 0, 0, 0.43)) ,url(assets/Page\ produit\ 1\ -\ Ambiance/PP1\ Ambiance\ 1.jpeg);
+  color: black;
+  background-color: white;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.43), rgba(0, 0, 0, 0.43)),
+    url(assets/Page\produit\1\-\Ambiance/PP1\Ambiance\1jpeg);
   margin: 0;
   z-index: 1;
 }
@@ -48,8 +48,8 @@ h1 {
   line-height: 180px;
   font-style: bold;
   font-family: Averia Sans libre;
-  color: white; 
-  text-align: center; 
+  color: white;
+  text-align: center;
 }
 
 h2 {
@@ -67,6 +67,10 @@ p {
   font-size: 14px;
 }
 
+.story {
+  height: 240px;
+  width: 271px;
+}
 
 .button-1 {
   z-index: 2;
@@ -74,13 +78,13 @@ p {
   font-family: Averia Sans Libre;
   font-style: Bold;
   font-size: 20px;
-  margin:0 ;
+  margin: 0;
   text-align: center;
   width: 271px;
   height: 43px;
-  line-height:50px;
-  background-color: #FEEBA1; 
-  color:black;
+  line-height: 50px;
+  background-color: #feeba1;
+  color: black;
   margin-right: auto;
   margin-left: auto;
 }
@@ -89,19 +93,23 @@ p {
     
 } */
 
-
 /* Produits */
 
-.produit1 {
+.picture1 {
   height: 110px;
   width: 130px;
+}
+
+.picture2 {
+  height: 65px;
+  width: 110px;
 }
 
 .product1 {
   display: block;
   justify-content: center;
-  align-items:center;
-  margin:0 auto;
+  align-items: center;
+  margin: 0 auto;
   margin-top: 30px;
   height: 240px;
   width: 260px;
@@ -109,47 +117,43 @@ p {
 
 /* Actualités */
 
-#actu
-{
-    height:auto;
-    background:url('assets/Homepage/Produit\comptoir.jpg');
+#actu {
+  height: auto;
+  background: url("assets/Homepage/Produit\comptoir.jpg");
 }
 
 .Actualites {
-    height: 338px;
-    background-size: cover;
-    background-position: center;
-    color:black;
-    background-color:white;
-    background-image:;
-    margin: 0;
-    z-index: 1;
-
+  height: 338px;
+  background-size: cover;
+  background-position: center;
+  color: black;
+  background-color: white;
+  background-image: ;
+  margin: 0;
+  z-index: 1;
 }
 
 .fondactu {
-
-    display: block;
-    justify-content: center;
-    align-items:center;
-    margin:0 auto;
-    margin-top: 30px;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  margin-top: 30px;
 }
 
 .actualité {
-
-    width:940px;
-    margin:0;
-    padding :10px;
+  width: 940px;
+  margin: 0;
+  padding: 10px;
 }
 
 a {
-  font-family: 'Averia Sans Libre', cursive;
-  font-size:16px;
+  font-family: "Averia Sans Libre", cursive;
+  font-size: 16px;
 }
 
 .Actualités {
-  background:white;
+  background: white;
   display: inherit;
   justify-content: center;
   align-items: center;
@@ -159,33 +163,32 @@ a {
   left: 0;
   height: 300px;
   width: 400px;
-
 }
 
-.Actualité1{
-display:block;
-justify-content: center  
+.Actualité1 {
+  display: block;
+  justify-content: center;
 }
 
 .Titractu {
   position: relative;
   display: inherit;
-  color:black;
+  color: black;
   text-align: center;
   justify-content: flex-start;
   margin-right: 215px;
   height: 30px;
   width: 180px;
-  background:#FEEBA1; 
-  line-height:
+  background: #feeba1;
+  line-height: ;
 }
 
 .imagefromage {
-  position:relative;
-  display:inline-block;
+  position: relative;
+  display: inline-block;
   text-align: center;
-  justify-content:center;
-  margin-right:
+  justify-content: center;
+  margin-right: ;
 }
 
 .entreprise {
@@ -193,7 +196,6 @@ justify-content: center
   height: 203px;
   margin: 0;
 }
-
 
 /* PAGE PRODUIT */
 
@@ -209,7 +211,7 @@ justify-content: center
   color: black;
   background-color: rgb(255, 255, 255);
   background-image: linear-gradient(rgba(0, 0, 0, 0.43), rgba(0, 0, 0, 0.43)),
-    url();          
+    url(assets/pp1/4.jpg);
   margin: 0;
 }
 
@@ -347,7 +349,6 @@ figure {
   margin-bottom: 0;
 }
 
-
 /* page article-1 */
 
 h2.titre-article {
@@ -379,7 +380,7 @@ footer {
   font-family: Oswald;
   font-style: regular;
   font-size: 12px;
-  background-color: #FEEBA1;
+  background-color: #feeba1;
   width: 100vw;
   height: 32px;
   line-height: 32px;
@@ -405,10 +406,10 @@ footer {
   border-radius: 50%;
   top: 15px;
   right: 15px;
-  background-color: #FEEBA1;
+  background-color: #feeba1;
   overflow: hidden;
-  transition: height 0.5s, width 0.5s, left 0.5s,
-  bottom 0.5s, border-radius 0.3s;
+  transition: height 0.5s, width 0.5s, left 0.5s, bottom 0.5s,
+    border-radius 0.3s;
 }
 
 nav.is-open {
@@ -446,9 +447,9 @@ nav.is-open {
 
 .open-icon::before,
 .open-icon::after {
-  content: '';
+  content: "";
   display: block;
-  transition:  transform 0.3s 
+  transition: transform 0.3s;
 }
 
 .open-icon::before {
@@ -460,7 +461,7 @@ nav.is-open {
 }
 
 nav.is-open .open-icon {
-  background-color: transparent; 
+  background-color: transparent;
 }
 
 nav.is-open .open-icon:before {
@@ -468,7 +469,7 @@ nav.is-open .open-icon:before {
 }
 
 nav.is-open .open-icon:after {
-  transform: translateY(-2px) rotate(- 45deg);
+  transform: translateY(-2px) rotate(-45deg);
 }
 
 ul {
@@ -485,12 +486,12 @@ ul {
   transition: 0.5s, opacity 0.3s;
 }
 
-nav.is-open ul { 
+nav.is-open ul {
   transform: none;
   opacity: 1;
 }
 
-nav:not(.is-open) ul{
+nav:not(.is-open) ul {
   pointer-events: none;
 }
 
@@ -498,7 +499,6 @@ li {
   font-family: Averia Sans Libre;
   text-transform: uppercase;
   font-size: 60px;
- 
 }
 
 li:not(:last-child) {
@@ -507,18 +507,16 @@ li:not(:last-child) {
 
 /* media query */
 
-@media{
-  .carrousel{
-    height:300px;
-    top:10%;
-    left:10%;
+@media {
+  .carrousel {
+    height: 300px;
+    top: 10%;
+    left: 10%;
   }
-  .pageproduits{
-    font-size:24px;
-    width:150px;
-    height:50px;
-
+  .pageproduits {
+    font-size: 24px;
+    width: 150px;
+    height: 50px;
   }
-  .
-
+  .;
 }
