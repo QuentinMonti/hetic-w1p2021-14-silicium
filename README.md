@@ -1,3 +1,3 @@
-Le lien vers notre site composé dut nom de notre groupe et la startup inspiré:
+Voici le lien de notre site d'appareils à raclette
 
 https://oraclette-ttm.netlify.com
