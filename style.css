@@ -4,7 +4,7 @@
 
 /*Logotype */
 
-.partie_logo {
+.partlogo {
   height: 60px;
   width:100px;
   background-color: white;
@@ -195,7 +195,7 @@ justify-content: center
   color: black;
   background-color: white;
   background-image: linear-gradient(rgba(0, 0, 0, 0.43), rgba(0, 0, 0, 0.43)),
-    url(assets/Page\produit\1\-\ambiance/pp1\ambiance\1jpeg);
+    url(assets/product1/pp1ambiance1.jpeg);
   margin: 0;
 }
 
@@ -355,7 +355,7 @@ p.paragraphe-article {
   margin: 5%;
 }
 
-.video-article1 {
+.videoarticle1 {
   display: flex;
   justify-content: center;
   align-content: center;
