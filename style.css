@@ -87,7 +87,7 @@ p {
 
 /* Produits */
 
-.appareil1 {
+.product1 {
   display: block;
   justify-content: center;
   align-items:center;
@@ -338,7 +338,7 @@ figure {
 
 /* page article-1 */
 
-h2.titre-article {
+h2.titlearticle {
   font-size: 22px;
   font-family: Oswald;
   font-style: Regular;
