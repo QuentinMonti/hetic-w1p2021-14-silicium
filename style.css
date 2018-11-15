@@ -4,7 +4,7 @@
 
 /*Logotype */
 
-.partie_logo {
+.partlogo {
   height: 60px;
   width:100px;
   background-color: white;
@@ -87,7 +87,7 @@ p {
 
 /* Produits */
 
-.appareil1 {
+.product1 {
   display: block;
   justify-content: center;
   align-items:center;
